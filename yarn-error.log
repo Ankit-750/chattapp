@@ -1,0 +1,78 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Ankit Ankit\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add emoji-picker-react
+
+PATH: 
+  C:\Program Files\WindowsApps\Microsoft.PowerShell_7.2.4.0_x64__8wekyb3d8bbwe;C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;H:\C++PROGRAME\mingw32\bin;C:\Program Files\Git\cmd;C:\Users\Ankit Ankit\AppData\Roaming\npm;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Users\Ankit Ankit\AppData\Local\JSONBuddy;C:\Users\Ankit Ankit\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Ankit Ankit\AppData\Local\Programs\Python\Python310\;C:\Users\Ankit Ankit\AppData\Local\Microsoft\WindowsApps;;C:\Users\Chaur\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Chaur\AppData\Roaming\npm;C:\Users\Ankit Ankit\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Ankit Ankit\AppData\Local\Programs\mongosh\;C:\Users\Ankit Ankit\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@material-ui/icons/-/icons-4.11.3.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\Ankit Ankit\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141510:19)
+      at Object.onceWrapper (node:events:509:28)
+      at ClientRequest.emit (node:events:390:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:763:9)
+      at Object.onceWrapper (node:events:509:28)
+      at TLSSocket.emit (node:events:402:35)
+      at TLSSocket.Socket._onTimeout (node:net:501:8)
+      at listOnTimeout (node:internal/timers:557:17)
+      at processTimers (node:internal/timers:500:7)
+
+npm manifest: 
+  {
+      "name": "client",
+      "version": "0.1.0",
+      "private": true,
+      "dependencies": {
+          "@material-ui/core": "^4.11.0",
+          "@material-ui/icons": "^4.9.1",
+          "@material-ui/styles": "^4.10.0",
+          "chat-app": "file:..",
+          "classnames": "^2.2.6",
+          "formik": "^2.2.0",
+          "history": "^4.10.1",
+          "notistack": "^0.8.9",
+          "react": "^16.13.1",
+          "react-dom": "^16.13.1",
+          "react-router-dom": "^5.2.0",
+          "react-scripts": "^3.4.3",
+          "rxjs": "^6.6.3",
+          "socket.io-client": "^2.3.1",
+          "yup": "^0.27.0"
+      },
+      "scripts": {
+          "start": "react-scripts start", 
+          "build": "react-scripts build", 
+  
+          "test": "react-scripts test",
+          "eject": "react-scripts eject"
+      },
+      "eslintConfig": {
+          "extends": "react-app"
+      },
+      "browserslist": {
+          "production": [
+              ">0.2%",
+              "not dead",
+              "not op_mini all"
+          ],
+          "development": [
+              "last 1 chrome version",
+              "last 1 firefox version",
+              "last 1 safari version"
+          ]
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
